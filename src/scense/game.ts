@@ -6,9 +6,11 @@ export default class Demo extends Phaser.Scene {
   }
 
   preload() {
+    // Load images or sounds
     this.load.image('MyPic', 'src/assets/logo.png')
   }
 
+  // Create game objects
   create() {
     const logo = this.add.image(window.innerWidth / 2, window.innerHeight, 'MyPic')
 
@@ -21,4 +23,8 @@ export default class Demo extends Phaser.Scene {
       repeat: -1,
     })
   }
+
+  // Update game state amd constant running loop
+  // When we want check something over and over again, like player input or collision detection
+  update() {}
 }
