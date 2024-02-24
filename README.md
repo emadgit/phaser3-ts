@@ -1,2 +1,9 @@
 # phaser3-ts
-A typescript starter for Phaser 3
+
+A TypeScript starter for Phaser 3
+
+## How to use
+
+```bash
+pnpm install
+pnpm dev
